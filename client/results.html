@@ -1,0 +1,20 @@
+<template name="gameResults">
+  <body>
+    <table>
+      <tr>
+        <th>Game Number</th>
+        <th>Player One</th>
+        <th>Player Two</th>
+        <th>Winner</th>
+      </tr>
+      {{#each results}}
+          <tr>
+            <td>{{gameNumber}}</td>
+            <td>{{playerOne}}</td>
+            <td>{{playerTwo}}</td>
+            <td>{{winner}}</td>
+          </tr>
+      {{/each}}
+    </table>
+  </body>
+</template>

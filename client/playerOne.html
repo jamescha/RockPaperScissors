@@ -1,0 +1,27 @@
+<template name="playerOne">
+  <h1>Rock Paper Scissors!</h1>
+  <h2>You Are Player One</h2>
+  <button id="rock">Rock</button>
+  <button id="paper">Paper</button>
+  <button id="scissors">Scissors</button>
+  <br>
+  <table>
+    <tr>
+      <th>
+        Your Choice
+      </th>
+      <th>
+        Their Choice
+      </th>
+    </tr>
+    <tr>
+      <td class="image">
+        <img src='{{yourChoice}}'/>
+      </td>
+      <td class="image">
+        <img src='{{choice}}'/>
+      </td>
+    </tr>
+  </table>
+  <h3> {{winner}} </h3>
+</template>
