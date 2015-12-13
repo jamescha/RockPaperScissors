@@ -5,7 +5,55 @@ img {
 table, th, td {
     border: 1px solid black;
 }
+body {
+  margin: auto;
+  padding: 10px;
+}
 
 .image {
   height: 300px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4CAF50;
+}
+
+#pOne {
+  color: #3F51B5;
+}
+
+#pTwo {
+  color: #FF4081;
+}
+
+#rock {
+  background-color: #2196F3;
+}
+
+#paper {
+  background-color: #00BCD4;
+}
+
+#scissors {
+  background-color: #FFC107;
 }
